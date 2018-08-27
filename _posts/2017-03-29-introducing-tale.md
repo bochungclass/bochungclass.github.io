@@ -4,6 +4,8 @@ title:  "보충수업 시작합니다."
 author: "Chester"
 ---
 
+<img width="1422" alt="2018-08-22 8 25 18" src="https://user-images.githubusercontent.com/42730616/44671900-ba5ce580-aa61-11e8-80f4-2ccf8c6bc5d5.png">
+
 Tale is a minimal [Jekyll](https://jekyllrb.com/) theme curated for storytellers. It is designed and developed by [myself](https://github.com/chesterhow/) for a friend who writes short stories.
 
 ## Tale features
