@@ -66,6 +66,36 @@ footer,
   }
 }
 
+.loading-animation {
+    animation-name: moving;
+    animation-duration: 0.6s;
+    animation-timing-function: ease-in-out;
+}
+.post-header {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 360px;
+    background-color: #D8E0E7;
+  }
+
+  .project-header {
+      display: flex;
+      font-family: "NanumGothic";
+      color: #fff;
+      height: 100%;
+    }
+  .project-header .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
+  .project-header .header-project-title {
+    font-weight: 700;
+    font-size: 50px;
+}
 @media (min-width: 600px) {
   .nav {
     &-container {
@@ -84,9 +114,11 @@ footer {
   font-family: $serif-secondary;
   padding: 2rem 0;
   text-align: center;
+}
 
   span {
     color: $default-color;
     font-size: .8rem;
   }
-}
+
+////////

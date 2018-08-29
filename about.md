@@ -1,15 +1,18 @@
 ---
-layout: post
-title: "About"
-author: "Chester"
+layout: default
+title: "보충수업"
+author: "보충수업"
 permalink: /about/
 ---
+## 생각보다 쉽습니다
+디자인 프로그램을 공부하다보면 '생각보다 쉽네!'라고 생각하는 부분이 많습니다. 우리가 원하는 정보를 쉽게 찾을 수 있다면 디자인 프로그램 공부는 어려운게 아니라 몰라서 못 썼을 뿐이란걸 알 수 있습니다. '보충수업'에서는 숨어있는 도구들과 효율적인 방법들을 공유하고자 만든 서비스입니다.
 
-A friend of mine writes short stories. One sunny day, I asked if he wanted a website to showcase his works and he agreed. I decided to use GitHub Pages to host his site. That way he wouldn't have to buy a domain and a server.
+'보충수업'은 '배우는 것은 생각보다 쉽다'라는 취지로 만들어졌으며, 디자인 프로그램 공부가 어려운게 아니라 몰라서 못했다는 것을 알려주기 위해 만들었습니다. 온라인에 게시된 화려한 디자인들도 내 손으로 뚝딱 만들 수 있는 능력을 키워봅시다. '보충수업'에서 제공하는 자료들은 모두 무료이며, 현재 디자이너들이 쓰고 있는 도구를 기반으로 알려드립니다.
 
-While doing some research up on GitHub Pages, I accidentally chanced upon this _simple, blog-aware, static site generator_ called [Jekyll](https://jekyllrb.com/) which works really well with GitHub Pages. I figured it would do just fine for my friend and I set about searching for a pretty theme. I wanted a theme with a _book-ish_ vibe. Unfortunately, most of the themes were too modern. Eventually, I caved and begun working on my own theme. With the help of [Poole](https://github.com/poole/poole), the Jekyll Butler, I was able to build **Tale**.
-
-## Contribute
-Feel free to create an issue or make a pull request on [GitHub](https://github.com/chesterhow/tale).
-
-Thanks for reading!
+## Contact
+{% highlight markdown %}
+ G-mail : hoc6334@gmail.com
+ Kakao : hoc6334
+ Facebook : bochungclass
+ Insta : h5chi7
+{% endhighlight %}

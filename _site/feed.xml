@@ -1,168 +1,131 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-28T01:22:17+09:00</updated><id>http://localhost:4000/</id><title type="html">보충수업</title><subtitle>Minimal Jekyll theme for storytellers</subtitle><author><name>Chester How</name><email>chesterhow@gmail.com</email></author><entry><title type="html">보충수업 시작합니다.</title><link href="http://localhost:4000/2017-03-29/introducing-tale" rel="alternate" type="text/html" title="보충수업 시작합니다." /><published>2017-03-29T00:00:00+09:00</published><updated>2017-03-29T00:00:00+09:00</updated><id>http://localhost:4000/2017-03-29/introducing-tale</id><content type="html" xml:base="http://localhost:4000/2017-03-29/introducing-tale">&lt;p&gt;Tale is a minimal &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; theme curated for storytellers. It is designed and developed by &lt;a href=&quot;https://github.com/chesterhow/&quot;&gt;myself&lt;/a&gt; for a friend who writes short stories.&lt;/p&gt;
-
-&lt;h2 id=&quot;tale-features&quot;&gt;Tale features&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Compatible with GitHub Pages&lt;/li&gt;
-  &lt;li&gt;Responsive design (looks just as good on mobile)&lt;/li&gt;
-  &lt;li&gt;Syntax highlighting, with the help of Pygments&lt;/li&gt;
-  &lt;li&gt;Markdown and HTML text formatting&lt;/li&gt;
-  &lt;li&gt;Pagination of posts&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Head over to the &lt;a href=&quot;/2017-03-16/example-content&quot;&gt;Example Content&lt;/a&gt; post for a showcase of Tale’s text formatting features.&lt;/p&gt;
-
-&lt;h2 id=&quot;browser-support&quot;&gt;Browser Support&lt;/h2&gt;
-&lt;p&gt;Tale works on most if not all modern browsers, including Chrome, Safari and Firefox 👍🏼&lt;/p&gt;
-
-&lt;h2 id=&quot;download-or-contribute&quot;&gt;Download or Contribute&lt;/h2&gt;
-&lt;p&gt;Tale is publicly hosted on GitHub, so go ahead and download or fork it at the &lt;a href=&quot;https://github.com/chesterhow/tale&quot;&gt;GitHub repository&lt;/a&gt;. If you spot any bugs or have any suggestions, feel free to create an issue or make a pull request.&lt;/p&gt;
-
-&lt;p&gt;Thanks for checking out Tale!&lt;/p&gt;</content><author><name>Chester</name></author><summary type="html">Tale is a minimal Jekyll theme curated for storytellers. It is designed and developed by myself for a friend who writes short stories.</summary></entry><entry><title type="html">Example Content</title><link href="http://localhost:4000/2017-03-16/example-content" rel="alternate" type="text/html" title="Example Content" /><published>2017-03-16T00:00:00+09:00</published><updated>2017-03-16T00:00:00+09:00</updated><id>http://localhost:4000/2017-03-16/example-content</id><content type="html" xml:base="http://localhost:4000/2017-03-16/example-content">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt ornare nibh, non elementum augue tempus eget. Pellentesque tempus scelerisque iaculis. Nullam interdum ultricies nibh quis sollicitudin. Donec ornare fermentum facilisis. Ut at sem ac sem imperdiet varius a eget tortor. Nam eu augue eget orci semper maximus in eget augue. Mauris ornare, nisl ut suscipit consectetur, mi quam interdum tellus, at rutrum quam eros ultrices mi.&lt;/p&gt;
-
-&lt;h1 id=&quot;headers&quot;&gt;Headers&lt;/h1&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;gh&quot;&gt;# H1&lt;/span&gt;
-&lt;span class=&quot;gu&quot;&gt;## H2&lt;/span&gt;
-&lt;span class=&quot;gu&quot;&gt;### H3&lt;/span&gt;
-&lt;span class=&quot;gu&quot;&gt;#### H4&lt;/span&gt;
-&lt;span class=&quot;gu&quot;&gt;##### H5&lt;/span&gt;
-&lt;span class=&quot;gu&quot;&gt;###### H6&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h1 id=&quot;h1&quot;&gt;H1&lt;/h1&gt;
-&lt;h2 id=&quot;h2&quot;&gt;H2&lt;/h2&gt;
-&lt;h3 id=&quot;h3&quot;&gt;H3&lt;/h3&gt;
-&lt;h4 id=&quot;h4&quot;&gt;H4&lt;/h4&gt;
-&lt;h5 id=&quot;h5&quot;&gt;H5&lt;/h5&gt;
-&lt;h6 id=&quot;h6&quot;&gt;H6&lt;/h6&gt;
-
-&lt;h1 id=&quot;text-formatting&quot;&gt;Text formatting&lt;/h1&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;gs&quot;&gt;**Bold**&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; _Italics_
-&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; ~~Strikethrough~~
-&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;ins&amp;gt;&lt;/span&gt;Underline&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ins&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;sup&amp;gt;&lt;/span&gt;Superscript&lt;span class=&quot;nt&quot;&gt;&amp;lt;/sup&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;sub&amp;gt;&lt;/span&gt;Subscript&lt;span class=&quot;nt&quot;&gt;&amp;lt;/sub&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; Abbreviation: &lt;span class=&quot;nt&quot;&gt;&amp;lt;abbr&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;HyperText Markup Language&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;HTML&lt;span class=&quot;nt&quot;&gt;&amp;lt;/abbr&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; Citation: &lt;span class=&quot;nt&quot;&gt;&amp;lt;cite&amp;gt;&lt;/span&gt;&lt;span class=&quot;ni&quot;&gt;&amp;amp;mdash;&lt;/span&gt; Chester How&lt;span class=&quot;nt&quot;&gt;&amp;lt;/cite&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Bold&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Italics&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;del&gt;Strikethrough&lt;/del&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;ins&gt;Underline&lt;/ins&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;sup&gt;Superscript&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;sub&gt;Subscript&lt;/sub&gt;&lt;/li&gt;
-  &lt;li&gt;Abbreviation: &lt;abbr title=&quot;HyperText Markup Language&quot;&gt;HTML&lt;/abbr&gt;&lt;/li&gt;
-  &lt;li&gt;Citation: &lt;cite&gt;— Chester How&lt;/cite&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;lists&quot;&gt;Lists&lt;/h1&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;p&quot;&gt;1.&lt;/span&gt; Ordered list item 1
-&lt;span class=&quot;p&quot;&gt;2.&lt;/span&gt; Ordered list item 2
-&lt;span class=&quot;p&quot;&gt;3.&lt;/span&gt; Ordered list item 3
-&lt;span class=&quot;p&quot;&gt;
-*&lt;/span&gt; Unordered list item 1
-&lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; Unordered list item 2
-&lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; Unordered list item 3&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Ordered list item 1&lt;/li&gt;
-  &lt;li&gt;Ordered list item 2&lt;/li&gt;
-  &lt;li&gt;Ordered list item 3&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Unordered list item 1&lt;/li&gt;
-  &lt;li&gt;Unordered list item 2&lt;/li&gt;
-  &lt;li&gt;Unordered list item 3&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;links&quot;&gt;Links&lt;/h1&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;Check out tale on &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;GitHub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;https://github.com/chesterhow/tale&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out tale on &lt;a href=&quot;https://github.com/chesterhow/tale&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&quot;images&quot;&gt;Images&lt;/h1&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;p&quot;&gt;![&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Placeholder image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;https://placehold.it/800x400&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;&quot;Placeholder image&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;p&quot;&gt;![&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Image with caption&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;https://placehold.it/700x400&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;&quot;Image with caption&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;ge&quot;&gt;_This is an image with a caption_&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://placehold.it/800x400&quot; alt=&quot;Placeholder image&quot; title=&quot;Placeholder image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://placehold.it/700x400&quot; alt=&quot;Image with caption&quot; title=&quot;Image with caption&quot; /&gt;
-&lt;em&gt;This is an image with a caption&lt;/em&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;code-and-syntax-highlighting&quot;&gt;Code and Syntax Highlighting&lt;/h1&gt;
-&lt;p&gt;Use back-ticks for &lt;code class=&quot;highlighter-rouge&quot;&gt;inline code&lt;/code&gt;. Multi-line code snippets are supported too through Pygments.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Sample javascript code&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;JavaScript syntax highlighting&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;c&quot;&gt;# Sample python code&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Python syntax highlighting&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Adding &lt;code class=&quot;highlighter-rouge&quot;&gt;linenos&lt;/code&gt; to the Pygments tag enables line numbers.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;// Sample javascript code&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;JavaScript syntax highlighting&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h1 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h1&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;gt&quot;&gt;&amp;gt; Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-29T20:26:41+09:00</updated><id>http://localhost:4000/</id><title type="html">보충수업</title><subtitle>생각보다 쉬운 보충수업</subtitle><author><name>simhochoel</name><email>hoc6334@gmail.com</email></author><entry><title type="html">[포토샵 3강] 조정 레이어(Adjustment layer)</title><link href="http://localhost:4000/2018-08-29/%ED%8F%AC%ED%86%A0%EC%83%B5-3%EA%B0%95-%EC%A1%B0%EC%A0%95-%EB%A0%88%EC%9D%B4%EC%96%B4(Adjustment-layer)" rel="alternate" type="text/html" title="[포토샵 3강] 조정 레이어(Adjustment layer)" /><published>2018-08-29T00:00:00+09:00</published><updated>2018-08-29T00:00:00+09:00</updated><id>http://localhost:4000/2018-08-29/%5B%ED%8F%AC%ED%86%A0%EC%83%B5%203%EA%B0%95%5D%20%EC%A1%B0%EC%A0%95%20%EB%A0%88%EC%9D%B4%EC%96%B4(Adjustment%20layer)</id><content type="html" xml:base="http://localhost:4000/2018-08-29/%ED%8F%AC%ED%86%A0%EC%83%B5-3%EA%B0%95-%EC%A1%B0%EC%A0%95-%EB%A0%88%EC%9D%B4%EC%96%B4(Adjustment-layer)">&lt;h2 id=&quot;소개&quot;&gt;소개&lt;/h2&gt;
+&lt;p&gt;이미지 보정을 하다보면 각종 기능들이 얽히고섥힙니다. 전 이미지 보정을 스스로 단계별로 진행 할 수 있는 사람이 보정을 잘한다고 생각합니다.(이 말 또한 모든 작업에 적용됩니다) 포토샵은 공부하면 할 수록 다양한 이름의 레이어들이 등장하는데요. 그렇기에 더더욱 레이어 관리도 신경써야 합니다.&lt;br /&gt;
+이미지 보정을 할 때, 현란하게 단축키 눌러서 수정하고 다른 곳을 손보다가 다시 수정하고를 무한 반복을 합니다. 이건 본인의 &lt;strong&gt;‘감(느낌)’&lt;/strong&gt; 으로 하는 작업입니다. 스스로를 믿으면 안됩니다.(저도 안믿습니다😀)&lt;/p&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
+  &lt;p&gt;눈대중으로 사진 시리즈를 보정하다간 큰일납니다!!&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h1 id=&quot;horizontal-rule--line-break&quot;&gt;Horizontal Rule &amp;amp; Line Break&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/42730616/44776311-c7d5b500-abb2-11e8-9d39-18f02f1750ce.jpg&quot; alt=&quot;800x400 33_ 1&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;내용&quot;&gt;내용&lt;/h2&gt;
+&lt;p&gt;조정 레이어 기능은 한번의 클릭으로 쓸 수 있습니다. 위 그림을 보면 초록색 원안에 있는 &lt;strong&gt;반달 아이콘&lt;/strong&gt; 을 누르고 원하는 기능을 눌러주면 끝입니다. 그리고 더 찾기 쉬우라고 ‘창 메뉴’에 가면 ‘조정(Adjustment)’항목이 따로 있습니다.참 편리하죠?(대놓고 ‘좋은 기능이니까 써~😄😄😄’라는 어도비) 그리고 조정 레이어를 사용 하실 때, 클리핑 마스크를 같이 쓰는걸 추천합니다.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;클리핑마스크 : 두 레이어 가운데 alt 누르기!&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;Use &lt;span class=&quot;sb&quot;&gt;`&amp;lt;hr&amp;gt;`&lt;/span&gt; for horizontal rules
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/42730616/44776312-c86e4b80-abb2-11e8-9aa6-ec0395cc3239.jpg&quot; alt=&quot;800x400 3-2_ 1&quot; /&gt;&lt;/p&gt;
 
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;hr&amp;gt;&lt;/span&gt;
+&lt;h2 id=&quot;마치며&quot;&gt;마치며&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;이제 여러분은 보정을 ‘감’이 아닌 ‘값’으로 이해해야합니다.&lt;/strong&gt; 그리고 작업을 많이 하다보면 ‘과거의 나’를 추적 할 수 있습니다. 이렇게만 사용하신다면 여러분의 금같은 시간을 아끼고 보정 실력도 늘꺼라 예상합니다. 다들 노가다에 의존하지 않는 작업자가 되세요.😀&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;나 : 과거의 나야 무슨 생각을 하고 작업했니?&lt;br /&gt;
+ 과거의 나 : …….&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>보충수업</name></author><category term="포토샵" /><summary type="html">소개 이미지 보정을 하다보면 각종 기능들이 얽히고섥힙니다. 전 이미지 보정을 스스로 단계별로 진행 할 수 있는 사람이 보정을 잘한다고 생각합니다.(이 말 또한 모든 작업에 적용됩니다) 포토샵은 공부하면 할 수록 다양한 이름의 레이어들이 등장하는데요. 그렇기에 더더욱 레이어 관리도 신경써야 합니다. 이미지 보정을 할 때, 현란하게 단축키 눌러서 수정하고 다른 곳을 손보다가 다시 수정하고를 무한 반복을 합니다. 이건 본인의 ‘감(느낌)’ 으로 하는 작업입니다. 스스로를 믿으면 안됩니다.(저도 안믿습니다😀) 눈대중으로 사진 시리즈를 보정하다간 큰일납니다!!</summary></entry><entry><title type="html">[일러스트레이터 2강] 윤곽선(outline)</title><link href="http://localhost:4000/2018-08-29/%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%ED%84%B0-2%EA%B0%95-%EC%9C%A4%EA%B3%BD%EC%84%A0(outline)" rel="alternate" type="text/html" title="[일러스트레이터 2강] 윤곽선(outline)" /><published>2018-08-29T00:00:00+09:00</published><updated>2018-08-29T00:00:00+09:00</updated><id>http://localhost:4000/2018-08-29/%5B%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%ED%84%B0%202%EA%B0%95%5D%20%EC%9C%A4%EA%B3%BD%EC%84%A0(outline)</id><content type="html" xml:base="http://localhost:4000/2018-08-29/%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%ED%84%B0-2%EA%B0%95-%EC%9C%A4%EA%B3%BD%EC%84%A0(outline)">&lt;h2 id=&quot;소개&quot;&gt;소개&lt;/h2&gt;
+&lt;p&gt;우리는 눈으로 세상을 보지만 그리 정확하지 않습니다. 밑에 이미지만 봐도 단번에 알 수 있습니다. 이미지는 서로 꼭지점이 닿은 것 처럼 보이는데, 사실 그렇지 않습니다. 이걸 보고 ‘이렇게까지 꼼꼼하게 작업을 해야하나…?’라고 생각하겠지만 작업의 완성은 디테일입니다. &lt;strong&gt;이렇게 꼼꼼하게 보는 것은 나중에 사수가 되거나 선배가 되었을 때, 그 자리의 권위를 지켜주는 좋은 습관이 됩니다.(?)🤔🤔🤔&lt;/strong&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/42730616/44782217-77198880-abc1-11e8-87c0-d3e31040d348.jpg&quot; alt=&quot;800x400 5_ 1&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;내용&quot;&gt;내용&lt;/h2&gt;
+&lt;p&gt;윤곽선 사용법은 별거 없습니다. ‘ctrl + Y’를 누르고 64000%까지 확대해서 꼼꼼히 보면 됩니다. 무조건 벡터만 인식하며 이미지들은 네모난 외각선으로만 표시합니다.
+&lt;img src=&quot;https://user-images.githubusercontent.com/42730616/44782218-77198880-abc1-11e8-8a3e-5560526d76fc.jpg&quot; alt=&quot;800x400 5-2_ 1&quot; /&gt;&lt;/p&gt;
 
-and &lt;span class=&quot;sb&quot;&gt;`&amp;lt;br&amp;gt;`&lt;/span&gt; for line breaks.
+&lt;h2 id=&quot;마치며&quot;&gt;마치며&lt;/h2&gt;
+&lt;p&gt;앞에 ‘소개’에서 잡아먹을 듯이 강조했지만 사실 별거 없습니다. 하지만 윤곽선이 왜 중요한지는 이 포스팅에 적은 글자보단 몇 배나 중요하니깐, 여러분이 초반 그리드 작업이나 아이콘, 로고 작업 할 때, 꼭 사용하길 바랍니다. 윤곽선을 모르고 벡터 작업을 하고있는 후배나 동료들을 봤을 때, 내 자리의 권위를 지킬 수 있는 기회로 바꾸세요.😎&lt;/p&gt;</content><author><name>보충수업</name></author><category term="일러스트레이터" /><summary type="html">소개 우리는 눈으로 세상을 보지만 그리 정확하지 않습니다. 밑에 이미지만 봐도 단번에 알 수 있습니다. 이미지는 서로 꼭지점이 닿은 것 처럼 보이는데, 사실 그렇지 않습니다. 이걸 보고 ‘이렇게까지 꼼꼼하게 작업을 해야하나…?’라고 생각하겠지만 작업의 완성은 디테일입니다. 이렇게 꼼꼼하게 보는 것은 나중에 사수가 되거나 선배가 되었을 때, 그 자리의 권위를 지켜주는 좋은 습관이 됩니다.(?)🤔🤔🤔 내용 윤곽선 사용법은 별거 없습니다. ‘ctrl + Y’를 누르고 64000%까지 확대해서 꼼꼼히 보면 됩니다. 무조건 벡터만 인식하며 이미지들은 네모난 외각선으로만 표시합니다.</summary></entry><entry><title type="html">[일러스트레이터 1강] 정렬 대상(align to)</title><link href="http://localhost:4000/2018-08-29/%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%ED%84%B0-1%EA%B0%95-%EC%A0%95%EB%A0%AC-%EB%8C%80%EC%83%81(align-to)" rel="alternate" type="text/html" title="[일러스트레이터 1강] 정렬 대상(align to)" /><published>2018-08-29T00:00:00+09:00</published><updated>2018-08-29T00:00:00+09:00</updated><id>http://localhost:4000/2018-08-29/%5B%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%ED%84%B0%201%EA%B0%95%5D%20%EC%A0%95%EB%A0%AC%20%EB%8C%80%EC%83%81(align%20to)</id><content type="html" xml:base="http://localhost:4000/2018-08-29/%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%ED%84%B0-1%EA%B0%95-%EC%A0%95%EB%A0%AC-%EB%8C%80%EC%83%81(align-to)">&lt;h2 id=&quot;소개&quot;&gt;소개&lt;/h2&gt;
+&lt;p&gt;일러스트레이터 작업시 노가다를 부르는 작업이 많습니다. 많은 노다가중에 위치 조정을 간편하게 해주는 기능인 정렬(align)이 있습니다. 4번 클릭 할 껄 3번만에 끝내주고, 3번 클릭 할 껄 2번만에 끝내주는 정렬(align) 기능. 기본 창은 다들 아시겠지만 맨 밑에 있는  &lt;strong&gt;정렬 대상(영어로 align to)&lt;/strong&gt; 은 잘 모는 사람이 많을 거라고 생각합니다. 은근히 옵션을 켜보면 숨어있는 좋은 기능들이 많습니다.😀&lt;/p&gt;
 
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;br&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;내용&quot;&gt;내용&lt;/h2&gt;
+&lt;p&gt;옵션을 표시하면 ‘정렬 대상(영어로 align to)’이라는 기능이 뜹니다. 이 기능은 정렬 할 때, &lt;strong&gt;어떤 대상을 기준점으로 삼을 것이냐입니다.&lt;/strong&gt; 기본 설정인 ‘선택 항목에 정렬’ 말고도 다른 기능들에 대해서 알아봅시다.&lt;/p&gt;
 
-&lt;p&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;hr&amp;gt;&lt;/code&gt; for horizontal rules&lt;/p&gt;
+&lt;h3 id=&quot;1-선택-항목에-정렬&quot;&gt;1) 선택 항목에 정렬&lt;/h3&gt;
+&lt;p&gt;기본 설정이라서 설명은 생략.&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;h3 id=&quot;2-대지artboard에-정렬&quot;&gt;2) 대지(artboard)에 정렬&lt;/h3&gt;
 
-&lt;p&gt;and &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;br&amp;gt;&lt;/code&gt; for line breaks.&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; 대지가 기준이 되며, 여기서 클릭 두번이면 대지(artboard)의 정중앙을 찾을 수 있습니다.
+&lt;span class=&quot;gt&quot;&gt;  &amp;gt; 이 방법은 보통 초반 그리드 작업 할 때 많이 씁니다!&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;
+-&lt;/span&gt; 그리드 작업 할 때 씁니다.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/42730616/44780160-41be6c00-abbc-11e8-9c74-082db4a0ba95.jpg&quot; alt=&quot;800x400 4_ 1&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-주요-오브젝트에-정렬&quot;&gt;3) 주요 오브젝트에 정렬&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; 간단하게 얘기하면, 클릭한 개체가 기준이 된다는 것입니다.
+  밑에 그림을 보면 전체 개체 중에 파란색 원을 클릭했으니 파란색 원이 기준점이 되는 것입니다.
+&lt;span class=&quot;gt&quot;&gt;  &amp;gt; 개체들이 선택되어 있는 상태에서 클릭해주세요!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/42730616/44780161-41be6c00-abbc-11e8-9836-7688da5f1691.jpg&quot; alt=&quot;800x400 4-2_ 1&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;마치며&quot;&gt;마치며&lt;/h2&gt;
+&lt;p&gt;정렬 기능을 잘 쓰면 작업 속도는 2배 3배가 될 수 있는 좋은 기능입니다. 스냅이란 좋은 기능이 있지만 개체가 많아져 복잡해지면 잘못 인식해서 별로 쓸모가 없습니다. 작업 스케일이 클 수록 정렬 기능은 중요하니 연습해 보세요.😀😀&lt;/p&gt;</content><author><name>보충수업</name></author><category term="일러스트레이터" /><summary type="html">소개 일러스트레이터 작업시 노가다를 부르는 작업이 많습니다. 많은 노다가중에 위치 조정을 간편하게 해주는 기능인 정렬(align)이 있습니다. 4번 클릭 할 껄 3번만에 끝내주고, 3번 클릭 할 껄 2번만에 끝내주는 정렬(align) 기능. 기본 창은 다들 아시겠지만 맨 밑에 있는 정렬 대상(영어로 align to) 은 잘 모는 사람이 많을 거라고 생각합니다. 은근히 옵션을 켜보면 숨어있는 좋은 기능들이 많습니다.😀</summary></entry><entry><title type="html">[꿀팁] 이쁜 그라데이션이란?</title><link href="http://localhost:4000/2018-08-29/%EA%BF%80%ED%8C%81-%EC%9D%B4%EC%81%9C-%EA%B7%B8%EB%9D%BC%EB%8D%B0%EC%9D%B4%EC%85%98%EC%9D%B4%EB%9E%80" rel="alternate" type="text/html" title="[꿀팁] 이쁜 그라데이션이란?" /><published>2018-08-29T00:00:00+09:00</published><updated>2018-08-29T00:00:00+09:00</updated><id>http://localhost:4000/2018-08-29/%5B%EA%BF%80%ED%8C%81%5D%20%EC%9D%B4%EC%81%9C%20%EA%B7%B8%EB%9D%BC%EB%8D%B0%EC%9D%B4%EC%85%98%EC%9D%B4%EB%9E%80</id><content type="html" xml:base="http://localhost:4000/2018-08-29/%EA%BF%80%ED%8C%81-%EC%9D%B4%EC%81%9C-%EA%B7%B8%EB%9D%BC%EB%8D%B0%EC%9D%B4%EC%85%98%EC%9D%B4%EB%9E%80">&lt;h2 id=&quot;나도-그라데이션-잘-쓰고-싶다&quot;&gt;나도 그라데이션 잘 쓰고 싶다&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;Q : 이쁜 그라데이션은 많은데 왜 난 못 쓸까요?
+A : 글쎄요.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;그라데이션에도-트렌드가-있다&quot;&gt;그라데이션에도 트렌드가 있다.&lt;/h3&gt;
+&lt;p&gt;저는 트랜드라는 이름보단 여러 그라데이션 가운데 몇가지라고 생각하지만 트랜드라고 하니깐..네. &lt;br /&gt;
+밑에 그림을 볼께요. 유명한 웹디자인 사이트 &lt;a href=&quot;https://www.awwwards.com/gradients-in-web-design-elements.html&quot;&gt;어워워워드즈(awwwards)&lt;/a&gt;에서 올린 그라데이션 트렌드에 대한 글입니다. 여기에 들어가보면 요즘 쓰는 그라데이션들을 나열해 놓았습니다. 종류가 정말 많죠? 그라데이션의 끝과 끝을 이쁜 색으로 해놓는다고 이쁜 그라데이션이 아닙니다.
+&lt;img width=&quot;1385&quot; alt=&quot;2018-08-29 7 52 22&quot; src=&quot;https://user-images.githubusercontent.com/42730616/44783420-55220500-abc5-11e8-830f-deb0c7998a78.png&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;비교적-고난이도이다&quot;&gt;비교적 고난이도이다.&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;화사하고, 몽환적이면서, 이쁜데…나도 해볼까?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;막상해보면, 저 그라데이션들은 화면에 비쳐진 모습에 비해 고난도를 요구합니다. 여기 나온 방법들을 유투브에 검색하고, 직접해보고, 이렇게 저렇게 해봐야 어느 정도 사용 할 수 있습니다. 생각보다 손이 많이가는 작업도 있고 기본 두개 이상 툴을 섞어서 사용해야 합니다. 방법은 나중에 차차 적어볼께요.&lt;/p&gt;
+
+&lt;h3 id=&quot;색&quot;&gt;색&lt;/h3&gt;
+&lt;p&gt;웹디자인 부흥으로 요즘은 웹에 예쁘게 보이는 그라데이션이 인기가 많습니다. 옆에 이미지에 보이듯이 CMYK로 표현하기 어려운 형광 계열이죠.  그리고 출판, 인쇄 쪽에는 리소그래피가 인기가 있어요. 국내에선 코우너스라는 인쇄소 겸 스튜디오가 잘 쓰고 있습니다.(요즘은 다른 그래픽 디자이너 분들도 많이 쓰는 걸로 알고 있습니다.) 저도 리소그래피로 작업한 그라데이션을 좋아합니다.
+&lt;img width=&quot;1025&quot; alt=&quot;2018-08-29 7 54 01&quot; src=&quot;https://user-images.githubusercontent.com/42730616/44783418-55220500-abc5-11e8-843b-7de269c34dd1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;마치며&quot;&gt;마치며&lt;/h2&gt;
+&lt;p&gt;요즘은 그라데이션을 많이 쓰고 있습니다. 왜 그럴까요? 어디서 글을 봤는데, 그라데이션이 한 색으로만 채운 개체보다 더 많은 감정을 담고 있기 때문이라고 합니다. 저도 그런거 같아서 이 의견에 따르겠습니다. ㅎ 그라데이션을 잘 쓰고 싶다면 좀 더 신중한 색깔 선택과 다른 툴과 접목시켜서 사용하시기 바랍니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;The end&lt;/em&gt;&lt;/p&gt;</content><author><name>Chester</name></author><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt ornare nibh, non elementum augue tempus eget. Pellentesque tempus scelerisque iaculis. Nullam interdum ultricies nibh quis sollicitudin. Donec ornare fermentum facilisis. Ut at sem ac sem imperdiet varius a eget tortor. Nam eu augue eget orci semper maximus in eget augue. Mauris ornare, nisl ut suscipit consectetur, mi quam interdum tellus, at rutrum quam eros ultrices mi.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/2017-03-10/welcome-to-jekyll" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-03-10T00:00:00+09:00</published><updated>2017-03-10T00:00:00+09:00</updated><id>http://localhost:4000/2017-03-10/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/2017-03-10/welcome-to-jekyll">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;출처
+https://www.awwwards.com/gradients-in-web-design-elements.html
+https://www.behance.net/gallery/47996117/Web-Gradients&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>보충수업</name></author><category term="꿀팁" /><summary type="html">나도 그라데이션 잘 쓰고 싶다 Q : 이쁜 그라데이션은 많은데 왜 난 못 쓸까요? A : 글쎄요.</summary></entry><entry><title type="html">[포토샵 2강] 레스터라이즈(Rasterize)</title><link href="http://localhost:4000/2018-08-28/%ED%8F%AC%ED%86%A0%EC%83%B5-2%EA%B0%95-%EB%A0%88%EC%8A%A4%ED%84%B0%EB%9D%BC%EC%9D%B4%EC%A6%88(Rasterize)" rel="alternate" type="text/html" title="[포토샵 2강] 레스터라이즈(Rasterize)" /><published>2018-08-28T00:00:00+09:00</published><updated>2018-08-28T00:00:00+09:00</updated><id>http://localhost:4000/2018-08-28/%5B%ED%8F%AC%ED%86%A0%EC%83%B5%202%EA%B0%95%5D%20%EB%A0%88%EC%8A%A4%ED%84%B0%EB%9D%BC%EC%9D%B4%EC%A6%88(Rasterize)</id><content type="html" xml:base="http://localhost:4000/2018-08-28/%ED%8F%AC%ED%86%A0%EC%83%B5-2%EA%B0%95-%EB%A0%88%EC%8A%A4%ED%84%B0%EB%9D%BC%EC%9D%B4%EC%A6%88(Rasterize)">&lt;h2 id=&quot;소개&quot;&gt;소개&lt;/h2&gt;
+&lt;p&gt;똑같은 기능인데 서로 이름을 몰라서 팀 직업 할 때 대화가 안 될 때가 있습니다. 보통 어떤 툴이 할 수 있는 기능으로 이름을 붙이는데, 정확한 명칭을 몰라 똑같은 기능을 다르게 불러 혼선을 야기합니다. 그렇게보면 저 위에 있는 말들은 한 가지 기능인데 다양한 이름을 가지고 있습니다. &lt;strong&gt;레스터라이즈(Rasterize)&lt;/strong&gt; 라는 이름이 있는데 말이죠.&lt;/p&gt;
+&lt;h2 id=&quot;내용&quot;&gt;내용&lt;/h2&gt;
+&lt;p&gt;우선 의미를 살펴보겠습니다. Rasterize의 사전적 의미를 살펴보면 래스터화하다(텍스트와 이미지를 프린터 가능한 형태로 전환시키다.)라는 뜻입니다. 좀 더 살을 붙여 얘기하자면&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; 레스터화가 안된 이미지 : 디지털 작업 가능
+&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; 레스터화가 된 이미지 : 픽셀 수정 가능&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets: like these&lt;/p&gt;
+&lt;p&gt;이렇게 분류해서 생각하면 편하실 겁니다.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;1-언제-쓸까&quot;&gt;1) 언제 쓸까?&lt;/h3&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Jekyll</name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">The Case of the Missing Post</title><link href="http://localhost:4000/2017-03-07/the-case-of-the-missing-post" rel="alternate" type="text/html" title="The Case of the Missing Post" /><published>2017-03-07T00:00:00+09:00</published><updated>2017-03-07T00:00:00+09:00</updated><id>http://localhost:4000/2017-03-07/the-case-of-the-missing-post</id><content type="html" xml:base="http://localhost:4000/2017-03-07/the-case-of-the-missing-post">&lt;p&gt;Kitty power! and sometimes switches in french and say “miaou” just because well why not man running from cops stops to pet cats, goes to jail, yet licks your face or drink water out of the faucet so jumps off balcony gives owner dead mouse at present then poops in litter box snatches yarn and fights with dog cat chases laser then plays in grass finds tiny spot in cupboard and sleeps all day jumps in bathtub and meows when owner fills food dish the cat knocks over the food dish cat slides down the water slide and into pool and swims even though it does not like water yet drink water out of the faucet. Pelt around the house and up and down stairs chasing phantoms.&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; 외부 사진를 불러오고 나서
+&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; 일러스트레이터에서 벡터 이미지를 가져 오고 나서
+&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; 텍스트를 만들고 나서
+&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; 도형을 만들고 나서&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Sit in window and stare ooo, a bird! yum. Sit and stare. Sweet beast loves cheeseburgers. Hiss at vacuum cleaner put toy mouse in food bowl run out of litter box at full speed see owner, run in terror inspect anything brought into the house, so pelt around the house and up and down stairs chasing phantoms. Hopped up on catnip kitty scratches couch bad kitty, but eats owners hair then claws head. Lie on your belly and purr when you are asleep kitty power! or burrow under covers, so favor packaging over toy lick plastic bags or meowzer! yet unwrap toilet paper.&lt;/p&gt;
+&lt;h3 id=&quot;2-사용법&quot;&gt;2) 사용법&lt;/h3&gt;
+&lt;p&gt;아주 간단합니다! 밑에 그림을 보면 초록색 사각형에 그려져있는 아이콘은 레스터화하기 전의 레이어입니다. 레스터라이즈 할 레이어에 오른쪽 마우스를 클릭하고 ‘레이어 레스터화’를 누르면 됩니다.
+&lt;img src=&quot;https://user-images.githubusercontent.com/42730616/44775075-ae7f3980-abaf-11e8-9f4a-b4d228ff6ee5.jpg&quot; alt=&quot;800x400 2-1_ 1&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://www.catipsum.com/&quot;&gt;Cat Ipsum&lt;/a&gt;&lt;/p&gt;</content><author><name>Chester</name></author><summary type="html">Kitty power! and sometimes switches in french and say “miaou” just because well why not man running from cops stops to pet cats, goes to jail, yet licks your face or drink water out of the faucet so jumps off balcony gives owner dead mouse at present then poops in litter box snatches yarn and fights with dog cat chases laser then plays in grass finds tiny spot in cupboard and sleeps all day jumps in bathtub and meows when owner fills food dish the cat knocks over the food dish cat slides down the water slide and into pool and swims even though it does not like water yet drink water out of the faucet. Pelt around the house and up and down stairs chasing phantoms.</summary></entry><entry><title type="html">The Mystery of the Filler Post</title><link href="http://localhost:4000/2017-03-06/the-mystery-of-the-filler-post" rel="alternate" type="text/html" title="The Mystery of the Filler Post" /><published>2017-03-06T00:00:00+09:00</published><updated>2017-03-06T00:00:00+09:00</updated><id>http://localhost:4000/2017-03-06/the-mystery-of-the-filler-post</id><content type="html" xml:base="http://localhost:4000/2017-03-06/the-mystery-of-the-filler-post">&lt;p&gt;Hornswaggle measured fer yer chains chase run a shot across the bow Chain Shot flogging Pirate Round galleon rope’s end aft. Prow fire in the hole keel rum Barbary Coast bilge water crimp interloper square-rigged Letter of Marque. Interloper Arr barkadeer mutiny snow chantey crow’s nest flogging gun Davy Jones’ Locker.&lt;/p&gt;
+&lt;h2 id=&quot;마치며&quot;&gt;마치며&lt;/h2&gt;
+&lt;p&gt;적다 보니 저도 레스터화, 레스터라이즈 이렇게 섞어서 적어놧네요.&lt;br /&gt;
+레스터라이즈는 별다른 단축키가 없습니다. 그래서 사용하시는 분 기호에 맞게 설정해서 사용하시면 편할겁니다. 저도 아직 단축키로 설정 안해놨는데요. 굳이 할 필요가 있나 생각이 들기도하고..&lt;/p&gt;</content><author><name>보충수업</name></author><category term="포토샵" /><summary type="html">소개 똑같은 기능인데 서로 이름을 몰라서 팀 직업 할 때 대화가 안 될 때가 있습니다. 보통 어떤 툴이 할 수 있는 기능으로 이름을 붙이는데, 정확한 명칭을 몰라 똑같은 기능을 다르게 불러 혼선을 야기합니다. 그렇게보면 저 위에 있는 말들은 한 가지 기능인데 다양한 이름을 가지고 있습니다. 레스터라이즈(Rasterize) 라는 이름이 있는데 말이죠. 내용 우선 의미를 살펴보겠습니다. Rasterize의 사전적 의미를 살펴보면 래스터화하다(텍스트와 이미지를 프린터 가능한 형태로 전환시키다.)라는 뜻입니다. 좀 더 살을 붙여 얘기하자면 - 레스터화가 안된 이미지 : 디지털 작업 가능 - 레스터화가 된 이미지 : 픽셀 수정 가능 이렇게 분류해서 생각하면 편하실 겁니다.</summary></entry><entry><title type="html">[포토샵 1강] 레이어 마스크(Layer mask)</title><link href="http://localhost:4000/2018-08-28/%ED%8F%AC%ED%86%A0%EC%83%B5-1%EA%B0%95-%EB%A0%88%EC%9D%B4%EC%96%B4-%EB%A7%88%EC%8A%A4%ED%81%AC(Layer-mask)" rel="alternate" type="text/html" title="[포토샵 1강] 레이어 마스크(Layer mask)" /><published>2018-08-28T00:00:00+09:00</published><updated>2018-08-28T00:00:00+09:00</updated><id>http://localhost:4000/2018-08-28/%5B%ED%8F%AC%ED%86%A0%EC%83%B5%201%EA%B0%95%5D%20%EB%A0%88%EC%9D%B4%EC%96%B4%20%EB%A7%88%EC%8A%A4%ED%81%AC(Layer%20mask)</id><content type="html" xml:base="http://localhost:4000/2018-08-28/%ED%8F%AC%ED%86%A0%EC%83%B5-1%EA%B0%95-%EB%A0%88%EC%9D%B4%EC%96%B4-%EB%A7%88%EC%8A%A4%ED%81%AC(Layer-mask)">&lt;h2 id=&quot;소개&quot;&gt;소개&lt;/h2&gt;
+&lt;p&gt;포토샵의 가장 기본인 마스킹 기능. 이미지 합성 할 땐 필수적인 기능입니다만? 사실 저도 마스킹에 대해 다 알고 있지 않습니다. 워낙 쓰는 방법이 다양하거든요. 그래도 기본적인 기능은 같으니깐 마스킹을 이해하는데 있어 ‘흰색과 검정색만 볼 줄 알면 마스킹을 할 수 있다’는 주제로 접근해보겠습니다.
+&lt;img src=&quot;https://user-images.githubusercontent.com/42730616/44784447-b0a1c200-abc8-11e8-9a8e-a667090b3961.jpg&quot; alt=&quot;800x400 _ 1&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Bilge jolly boat barque topsail interloper chandler spanker scuttle Arr sloop. Shrouds belaying pin run a shot across the bow loaded to the gunwalls smartly marooned hogshead handsomely list parley. Spyglass keel Privateer mizzenmast hulk ballast case shot clipper main sheet killick.&lt;/p&gt;
+&lt;h2 id=&quot;내용&quot;&gt;내용&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;레이어 마스크는 아주 단순하게 명암(흰색, 검은색)으로만 표시됩니다.&lt;/strong&gt; 흰색은 원래 레이어의 이미지이고 검은색은 원래 레이어의 이미지가 없는 부분입니다. 정리하자면.&lt;/p&gt;
 
-&lt;p&gt;Careen hempen halter Letter of Marque pillage swing the lead take a caulk Sail ho jury mast walk the plank ho. Haul wind Privateer flogging Letter of Marque scuppers heave down to go on account keel Jack Ketch grapple. Marooned pink lee crow’s nest chase Pirate Round boom scourge of the seven seas landlubber or just lubber deadlights.&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; 레이어 마스크의 흰색 : 존재하는 이미지
+&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; 레이어 마스크의 검은색 : 존재하지 않는 이미지(투명)&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://pirateipsum.me/&quot;&gt;Pirate Ipsum&lt;/a&gt;&lt;/p&gt;</content><author><name>Chester</name></author><summary type="html">Hornswaggle measured fer yer chains chase run a shot across the bow Chain Shot flogging Pirate Round galleon rope’s end aft. Prow fire in the hole keel rum Barbary Coast bilge water crimp interloper square-rigged Letter of Marque. Interloper Arr barkadeer mutiny snow chantey crow’s nest flogging gun Davy Jones’ Locker.</summary></entry><entry><title type="html">Pagination Post</title><link href="http://localhost:4000/2017-03-05/pagination-post" rel="alternate" type="text/html" title="Pagination Post" /><published>2017-03-05T00:00:00+09:00</published><updated>2017-03-05T00:00:00+09:00</updated><id>http://localhost:4000/2017-03-05/pagination-post</id><content type="html" xml:base="http://localhost:4000/2017-03-05/pagination-post">&lt;p&gt;Here we see &lt;strong&gt;Tale’s&lt;/strong&gt; pagination feature in action. It is set to 5 posts per page by default. Feel free to change this number in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file!&lt;/p&gt;</content><author><name>Chester</name></author><summary type="html">Here we see Tale’s pagination feature in action. It is set to 5 posts per page by default. Feel free to change this number in the _config.yml file!</summary></entry></feed>
+&lt;p&gt;이렇게 됩니다. &lt;strong&gt;다르게 말하면 일반 레이어가 ‘물리적인 사진 한 장’이라고 하면, 레이어 마스크의 검은색은 잘려나가거나 태워진 부분이라고 볼 수 있습니다.&lt;/strong&gt;(오 괜찮은 비유인듯) 마스크 작업을 시작 할 때, 마스크 아이콘을 누르면 화면에는 변화가 없습니다.! 꼭 레이어 마스크가 잘 선택되었는지 확인하고 작업을 해주세요!
+&lt;img src=&quot;https://user-images.githubusercontent.com/42730616/44784448-b13a5880-abc8-11e8-8b43-8261b1bb883f.jpg&quot; alt=&quot;800x400 2_ 1&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;예상-질문&quot;&gt;예상 질문&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Q : 지운다는 개념에서 지우개(Eraser)기능과 똑같은 개념 같은데 굳이 써야 할 이유가 있나요?&lt;/strong&gt;&lt;br /&gt;
+지우개는 실수하면 ctrl + z가 답이고, 레이어 마스크는 다시 흰색을 그리면 이미지가 돌아옵니다. 그래도 모르겠다면 지우개 계속 쓰세요. 다량의 수정 할 때 되면&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“아 저번에 레이어 마스크라는걸 봤는데….어딧더라…3.3”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Q : 레이어 마스크에 검정색을 어떻게 넣나요?&lt;/strong&gt;&lt;br /&gt;
+브러쉬, 도형, 그라데이션 등 검정색(어두운 색)만 넣을 수 있다면 다 됩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;마치며&quot;&gt;마치며&lt;/h2&gt;
+&lt;p&gt;위에서 말했듯이 쓰는 방법이 워낙에 다양합니다. 채널에 들어가서 쓴다거나 ‘레이어 스타일-혼합 옵션’에서 쓴다거나. 하지만 흰색과 검은색의 개념만 잘 숙지한다면 쉽게 다가갈 수 있습니다. 다 작성하다보니 새벽 1시 반입니다. 얼른 자야지. ✋&lt;/p&gt;</content><author><name>보충수업</name></author><category term="포토샵" /><summary type="html">소개 포토샵의 가장 기본인 마스킹 기능. 이미지 합성 할 땐 필수적인 기능입니다만? 사실 저도 마스킹에 대해 다 알고 있지 않습니다. 워낙 쓰는 방법이 다양하거든요. 그래도 기본적인 기능은 같으니깐 마스킹을 이해하는데 있어 ‘흰색과 검정색만 볼 줄 알면 마스킹을 할 수 있다’는 주제로 접근해보겠습니다.</summary></entry></feed>

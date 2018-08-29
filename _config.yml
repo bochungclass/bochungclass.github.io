@@ -1,14 +1,14 @@
 # Site settings
 title:          보충수업
-description:    "Minimal Jekyll theme for storytellers"
+description:    "생각보다 쉬운 보충수업"
 baseurl:        ""
 url:            ""
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         simhochoel
+  url:          https://bochungclass.github.io
+  email:        hoc6334@gmail.com
 
 # Build settings
 markdown:       kramdown

@@ -1,0 +1,23 @@
+<style>
+#tagfont {
+  font-size: 15px;
+}
+</style>
+<div>
+  <ul class="tags post-tags cf">
+    <li id="tagfont"> Tagged :</li>
+    <li>
+  {% if post %}
+    {% assign tags = post.tags %}
+  {% else %}
+    {% assign tags = page.tags %}
+  {% endif %}
+  {% for tag in tags %}
+    <a href="/tags/#{{tag|slugize}}">{{tag}}</a>
+    {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+</li>
+ </ul>
+</div>
+</br>
+</br>

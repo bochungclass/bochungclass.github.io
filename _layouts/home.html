@@ -1,18 +1,26 @@
 ---
 layout: default
 ---
+<div class="project-header post-header loading-animation" style="background-image: url('https://user-images.githubusercontent.com/42730616/44715191-1a02d180-aaf2-11e8-9d26-9ef86594a541.png')">
+  <div class="container">
+      <div>
+          <div class="header-project-title">
+              🔥📖🔥
+          </div>
 
+      </div>
+  </div>
+</div>
 <div class="catalogue">
   {% for post in paginator.posts %}
     <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
       <div>
         <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
         <h1 class="catalogue-title">{{ post.title }}</h1>
+        <p class="catalogue-sub">{{ post.subtitle }}</p>
         <div class="catalogue-line"></div>
 
-        <p>
-          {{ post.content | strip_html | truncatewords: 30 }}
-        </p>
+      
 
       </div>
     </a>
