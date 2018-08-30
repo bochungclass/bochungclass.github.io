@@ -4,8 +4,7 @@ title: "보충수업"
 author: "보충수업"
 permalink: /about/
 ---
-![800x400 ddd _ 1](https://user-images.githubusercontent.com/42730616/44852611-a651f780-ac9e-11e8-9f2d-d558e64cf379.png)
-
+![800x400fsd _ 1](https://user-images.githubusercontent.com/42730616/44852723-f4ff9180-ac9e-11e8-9680-f254f708b0ef.png)
 
 ## 생각보다 쉽습니다
 디자인 프로그램을 공부하다보면 '생각보다 쉽네!'라고 생각하는 부분이 많습니다. 우리가 원하는 정보를 쉽게 찾을 수 있다면 디자인 프로그램 공부는 어려운게 아니라 몰라서 못 썼을 뿐이란걸 알 수 있습니다. '보충수업'에서는 숨어있는 도구들과 효율적인 방법들을 공유하고자 만든 서비스입니다.
