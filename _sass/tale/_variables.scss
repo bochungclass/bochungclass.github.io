@@ -12,9 +12,9 @@ $code-color: #0066ff;
 $blueblue: #0066ff;
 
 // Fonts
-$serif-primary: 'NanumBarunGothic', 'Times New Roman', Times, serif;
-$serif-secondary: 'NanumMyeongjoBold', 'NanumBarunGothicLight', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif;
-$sans-serif: 'NanumSquareEB', 'Segoe UI', Helvetica, Arial, sans-serif;
+$serif-primary: 'NanumBarunGothic', 'NanumBarunGothic', 'NanumBarunGothic', serif;
+$serif-secondary: 'NanumBarunGothicLight', 'NanumBarunGothicLight', 'NanumBarunGothicLight', 'NanumBarunGothicLight', 'NanumBarunGothicLight', serif;
+$sans-serif: 'NanumSquareEB', 'NanumSquareEB', 'NanumSquareEB', 'NanumSquareEB', sans-serif;
 $monospaced: Menlo, Monaco, monospace;
 
 @mixin box-sizing($type: border-box) {
