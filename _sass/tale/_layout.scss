@@ -12,14 +12,6 @@ footer,
   max-width: 800px;
   width: 80%;
 }
-.searchbutton {
-display: inline-block;
-background-color: #0066ff
-padding: 2px;
-color: #fff
-border-radius: 2px;
-}
-
 
 .nav {
   box-shadow: 0 2px 2px -2px $shadow-color;
@@ -49,6 +41,13 @@ border-radius: 2px;
     margin: 1rem 0 0;
     padding: 0;
     text-align: center;
+  }
+  searchbutton {
+    display: inline-block;
+    background-color: #0066ff
+    padding: 2px;
+    color: #fff
+    border-radius: 2px;
   }
 
   li {
