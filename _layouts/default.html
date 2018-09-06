@@ -26,13 +26,13 @@
         &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. Made by <a href="https://www.instagram.com/h5chi7">h5chi7</a>
       </span>
     </footer>
-         <div id="fb-root"></div>
-   <script>(function(d, s, id) {
-   var js, fjs = d.getElementsByTagName(s)[0];
-   if (d.getElementById(id)) return;
-   js = d.createElement(s); js.id = id;
-   js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=454842185011322";
-   fjs.parentNode.insertBefore(js, fjs);
-   }(document, "script", "facebook-jssdk"));</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v3.1&appId=454842185011322&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   </body>
 </html>
