@@ -75,8 +75,9 @@ ol, ul {
 
   p {
     margin: 0 0 1rem;
-    line-height: 180%;
-    text-align: justify;
+    line-height: 1.8;
+   
+    word-break: break-all;
     font-weight: 400;
     letter-spacing: -0.009em;
   }
