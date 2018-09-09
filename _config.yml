@@ -5,7 +5,7 @@ baseurl:        "https://bochungclass.github.io"
 url:            "https://bochungclass.github.io"
 
 # Author
-author:
+author:         bochungclass
   name:         simhochoel
   url:          https://bochungclass.github.io
   email:        hoc6334@gmail.com
