@@ -1,7 +1,7 @@
 # Site settings
 title:          보충수업
 description:    "생각보다 쉬운 보충수업"
-baseurl:        "https://bochungclass.github.io"
+baseurl:        ""
 url:            "https://bochungclass.github.io"
 
 # Author
