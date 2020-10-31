@@ -16,5 +16,5 @@ permalink: /about/
  G-mail : hoc6334@gmail.com
  Kakao : hoc6334
  Facebook : bochungclass
- Insta : h5chi7
+ Insta : simh57
 {% endhighlight %}
